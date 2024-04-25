@@ -5,7 +5,7 @@ services:
     image: mysql:8.3.0
     volumes:
       - ./config/mysql:/etc/mysql/conf.d
-    #   - ~/volumes/jhipster/expensePal/mysql/:/var/lib/mysql/
+    #   - ~/volumes/jhipster/ExpensePal/mysql/:/var/lib/mysql/
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
       - MYSQL_DATABASE=expensepal

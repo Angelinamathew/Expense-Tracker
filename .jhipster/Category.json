@@ -1,0 +1,19 @@
+{
+  "annotations": {
+    "changelogDate": "20240425185133"
+  },
+  "applications": ["ExpensePal"],
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Category",
+  "relationships": [],
+  "searchEngine": "no"
+}

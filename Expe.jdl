@@ -1,0 +1,33 @@
+application {
+  config {
+    baseName ExpensePal ,
+    packageName com.angelina,
+    applicationType monolith,
+    prodDatabaseType mysql,
+  }
+  entities *
+}
+entity User {
+  id Long 
+  username String
+  role String
+  createdAt Instant
+}
+
+entity Expense {
+  id Long 
+  amount Double
+  date LocalDate
+  notes String
+  createdAt Instant
+}
+
+entity Category {
+  id Long 
+  name String
+}
+
+relationship ManyToOne {
+  Expense{user} to User
+  Expense{category} to Category
+}

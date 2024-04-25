@@ -32,8 +32,8 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:h2:file:./target/h2db/db/expensePal;DB_CLOSE_DELAY=-1;MODE=MYSQL
-    username: expensePal
+    url: jdbc:h2:file:./target/h2db/db/ExpensePal;DB_CLOSE_DELAY=-1;MODE=MYSQL
+    username: ExpensePal
     password:
     hikari:
       poolName: Hikari
