@@ -122,7 +122,7 @@ class CRLFLogConverterTest {
     }
 
     @Test
-    void testToAnsiString() {
+    void xtestToAnsiString() {
         CRLFLogConverter cut = new CRLFLogConverter();
         AnsiElement ansiElement = AnsiColor.RED;
 
